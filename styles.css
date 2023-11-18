@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(file:///K:/Mindfloat/Project%20Dojo/Fold%20A/Project%20Fold/Junk/photo-1485470733090-0aae1788d5af.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f5f6f7;
+  background-blend-mode: multiply;
+}
+.heading {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  text-shadow: 2px 2px 5px red;
+}
+#head {
+  font-size: 1.8em;
+  color: rgba(246, 234, 71, 0.714);
+}
+#subheading {
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(246, 234, 71, 0.714);
+}
+#content1 {
+  width: 90%;
+  margin: auto;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 54%;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 60px;
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+form .box {
+  width: 98.5%;
+  height: 2.8em;
+  position: relative;
+  bottom: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+#option1 select {
+  width: 98.5%;
+  height: 2.7em;
+  position: relative;
+  bottom: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+#option2 select {
+  width: 98.5%;
+  height: 2.7em;
+  position: relative;
+  bottom: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+#content2 {
+  margin-top: 10px;
+}
+button {
+  width: 98.5%;
+  height: 3em;
+  position: relative;
+  top: 11px;
+  background-color: rgba(246, 234, 71, 0.714);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+textarea::placeholder {
+  font-size: 1.4em;
+  position: relative;
+  top: 8px;
+  left: 5px;
+  width: 70%;
+}
+input::placeholder {
+  font-size: 1.1em;
+  position: relative;
+  left: 10px;
+  width: 50%;
+  font-weight: 500;
+}
+input.larger {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+    margin: auto;
+  }
+}

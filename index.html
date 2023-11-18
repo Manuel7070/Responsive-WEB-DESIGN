@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Survey_Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1 id="head">Survey-Form</h1>
+      <h2 id="subheading">
+        <i>Thanks for taking your valuable time to take this survey.(Takes only
+          2mins )</i>
+      </h2>
+    </div>
+    <form>
+      <id="content1">
+      <label>Name:</label><br /><br />
+      <input
+        type="name"
+        name="name"
+        placeholder="Enter your name..."
+        class="box"
+      /><br /><br />
+      <label>Email:</label><br /><br />
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email..."
+        class="box"
+      /><br /><br />
+      <label>Age: (Optional)</label><br /><br />
+      <input
+        type="age"
+        name="age"
+        placeholder="Enter your age"
+        class="box"
+      /><br /><br />
+      <label>How long have you been using Chrematizo App?</label><br /><br />
+      <div id="option1">
+        <select>
+          <option name="Select year">Select year</option>
+          <option value="1">Less than 1 year</option>
+          <option value="1">1 to 2 years</option>
+          <option value="1">2 to 3 years</option>
+          <option value="1">3 to 4 years</option>
+          <option value="1">over 5 years</option>
+        </select>
+      </div>
+    </div>
+    <br>
+    <label id="head1">Would you recommend Chrematizo App to a friend?</label><br><br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot sure<br><br>
+    
+      <label id="head2">Whats your favourite feature of the Chrematizo? (Check all that apply)</label><br>
+      <div id="content2">
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspPush notifications</label><br><br>
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspProduct reviews</label><br><br>
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspProduct gallery</label><br><br>
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspShopping cart</label><br><br>
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspDelivery status</label><br><br>
+      <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspEmail surpport</label><br><br>
+      </div>
+      <label>Additional comments or Suggestions:</label><br><br>
+    <textarea id="comments" name="comments" rows="3" cols="60" placeholder="Enter Your Comments Here..."></textarea><br>
+      <button><h3>Submit</h3></button>
+    </form>
+  </body>
+</html>
