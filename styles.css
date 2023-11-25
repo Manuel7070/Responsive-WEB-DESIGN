@@ -23,12 +23,12 @@ body {
 }
 #head {
   font-size: 1.8em;
-  color: rgba(246, 234, 71, 0.714);
+  color: rgba(255, 253, 253, 0.714);
 }
 #subheading {
   font-size: 18px;
   margin-top: 10px;
-  color: rgba(246, 234, 71, 0.714);
+  color: rgba(255, 253, 253, 0.714);
 }
 #content1 {
   width: 90%;
