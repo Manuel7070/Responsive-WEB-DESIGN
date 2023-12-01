@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./techdoc.css" />
-    <title>Git - Documentation</title>
+    <title>Java Documentation</title>
   </head>
   <body>
     <nav id="navbar">
-      <header>Git</header>
+      <header>Java Documentation</header>
       <ul>
         <li>
-          <a class="nav-link" href="#Getting_Started_With_Git"
-            >Getting Started With Git</a
+          <a class="nav-link" href="#Getting_Started_With_Java"
+            >Getting Started With Java</a
           >
         </li>
         <li>
-          <a class="nav-link" href="#Java_Entry_Point">Branching and Merging</a>
+          <a class="nav-link" href="#Java_Entry_Point">Java Entry Point</a>
         </li>
         <li>
           <a class="nav-link" href="#Printing_to_the_console"
@@ -37,46 +37,39 @@
       </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="Getting_Started_With_Git">
-        <header>Getting Started With Git</header>
-        <p>Steps in getting started</p>
+      <section class="main-section" id="Getting_Started_With_Java">
+        <header>Getting Started With Java</header>
+        <p>Steps ingetting started</p>
         <ol>
-          <li>
-            Download Git For
-            <a href="https://git-scm.com/download/win">Windows</a>
-          </li>
-          <li>
-            Download Git For
-            <a href="https://git-scm.com/download/mac">MacOS</a>
-          </li>
-          <li>
-            Download Git For
-            <a href="https://git-scm.com/download/linux">Linux</a>
-          </li>
+          <li>Download Java</li>
+          <li>Download Java SDK</li>
+          <li>Get an Intergrated Development Evironment (IDE)</li>
+          <li>Start a project within the IDE</li>
+          <li>Code up "Hello World" and run the code</li>
         </ol>
       </section>
-      <class="main-section" id="Branching_and_Merging">
-        <header>Branching and Merging</header>
+      <section class="main-section" id="Java_Entry_Point">
+        <header>Java Entry Point</header>
+        <p>This entry point to a java application is the main function.</p>
         <p>
-          The Git feature that really makes it stand apart from nearly every
-          other SCM out there is its branching model. Git allows and encourages
-          you to have multiple local branches that can be entirely independent
-          of each other. The creation, merging, and deletion of those lines of
-          development takes seconds.
+          It is categotized by its (strings[] arg) as a parameter to thr
+          function
         </p>
-        <p>This means that you can do things like:</p>
+        <pre>
+            <code>
+                public class MyMainFunction {
+                    public static void main(String[] args) {
+                        System.out.println("Hello, world!"); // Example: Prints "Hello, world!"
+                        
+                    }
+                }  
+            </code>
+        </pre>
         <p>
-          Frictionless Context Switching. Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.</p>
-          <p>Role-Based Codelines. Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.</p>
-           <p>Feature Based Workflow. Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line.</p>
-          <p>Disposable Experimentation. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).</p>
-<img src="https://git-scm.com/images/about/branches@2x.png" alt="git like-image" class="image" />
-        <p>
-          Notably, when you push to a remote repository, you do not have to push all of your branches. You can choose to share just one of your branches, a few of them, or all of them. This tends to free people to try new ideas without worrying about having to plan how and when they are going to merge it in or share it with others.
+          As you can see the main function is wrapped with a class which is part
+          of the object oriented structure of Java Projects.
         </p>
-        <p>There are ways to accomplish some of this with other systems, but the work involved is much more difficult and error-prone. Git makes this process incredibly easy and it changes the way most developers work when they learn it.
-
-        </p>
+        <p>The name of the project is therefore "MyMainfunction"</p>
       </section>
       <section class="main-section" id="Printing_to_the_console">
         <header>Printing to the console</header>
@@ -109,8 +102,10 @@
           how to declare a Java method.
         </p>
         <img
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fmethod-in-java&psig=AOvVaw1nk2rL5AH0vJk-dttfXo_Z&ust=1701341676706000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiYxeuF6YIDFQAAAAAdAAAAABAJ
-        alt="java-method-img" class="image" />
+          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fmethod-in-java&psig=AOvVaw1nk2rL5AH0vJk-dttfXo_Z&ust=1701341676706000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiYxeuF6YIDFQAAAAAdAAAAABAJ"
+          alt="java-method-img"
+          class="image"
+        />
         <p>Some copiable code:</p>
         <pre>
             <code>
@@ -154,6 +149,7 @@
                     public void setName(String name){
                         this.name = name;
                 }
+              }
             </code>
         </pre>
         <p>We use this class by doing the following:</p>
