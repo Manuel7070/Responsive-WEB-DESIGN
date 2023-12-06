@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pl.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="log-container">
+          <img
+            src="https://th.bing.com/th/id/OIP.4l4rvCbIwe0x-ZLuTh0HlAHaF7?rs=1&pid=ImgDetMain"
+            alt="logo"
+            id="header-img"
+          />
+          <span class="the-product">Classic Books</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Feathers</a></li>
+          <li><a href="#audio" class="nav-link">Free Audio Book</a></li>
+          <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="email-section">
+      <h2>Beautifully Written Masterpieces</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          required
+          placeholder="Enter your email address"
+          name="email"
+          id="email"
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="ri-file-paper-fill ri-4x icon"></i>
+        <div>
+          <h2>Premuim Materials</h2>
+          <p>
+            Our Books use the best paper which is sourced locally.This will
+            increse the longetivity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-truck-fill ri-4x icon"></i>
+        <div>
+          <h2>1 Day Shipping</h2>
+          <p>
+            We make sure you recieve your classic book as possible so that you
+            can start reading immediately. We also provide free returns if you
+            are not sartisfied.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+          <h2>Quality Books Only</h2>
+          <p>
+            We provide only quality books which are classical and modern to
+            suite your tastes and preferences.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+      <iframe
+        id="video"
+        height="400"
+        src="https://www.youtube.com/embed/YKAfKprBXQc?si=AGzwLmpobs_b2Z5O"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="for_sale">
+      <h2>For Sale</h2>
+      <div class="product-cards">
+        <div class="cards">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author">Dale Carnegie</div>
+            <h1 class="header">How to Win Friends & Influence People</h1>
+            <p class="content">
+              Dale Carnegie's rock-solid, time-tested advice to countless people
+              up their ladder of success in a persons live
+            </p>
+            <div class="flex">
+              <p class="main-price">$16.12</p>
+              <p class="old-price">$19.29</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+      </div>
+    </section>
+  </body>
+</html>
